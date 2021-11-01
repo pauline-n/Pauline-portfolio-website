@@ -1,0 +1,27 @@
+*{
+  font-family: 'Lato', sans-serif;
+  overflow-x: hidden;
+  margin: 0;
+}
+.app{
+  height: 100vh;
+}
+.sections{
+  width: 100%;
+  height: calc(100vh - 9vh);
+  /* background-color: chocolate; */
+  position: relative;
+  top: 9vh;
+  scroll-snap-type: y mandatory;
+  scrollbar-width: none;  
+  scroll-behavior: smooth;
+
+}
+.sections::-webkit-scrollbar{
+    display: none;
+  }
+.sections > *{
+  width: 100vw;
+  height: calc(100vh - 9vh);
+  scroll-snap-align: start;
+}
