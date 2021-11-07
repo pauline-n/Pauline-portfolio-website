@@ -1,9 +1,13 @@
+@import "../../globalstyles.css";
+
 .rapper{
   
   background-color: #fff;
   display: flex;
-  color: #17395c;
+  color: #101820FF;
+
 }
+
 .lef{
   flex: 0.5;
   overflow: hidden;
@@ -18,7 +22,9 @@
 .imageContainer{
   width: 700px;
   height: 700px;
-  background-color: #c24229;
+  /* background-color: #c24229; */
+  /* background-color: #F95700FF; */
+  background-color: #990011FF;
   border-radius: 50%;
   display: flex;
   align-items: flex-start;
@@ -64,6 +70,8 @@ h4{
 }
 
 h4 span{
-  color: #c24229;
+  color: #F95700FF;
   background-color: transparent;
 }
+
+/* 035460 */

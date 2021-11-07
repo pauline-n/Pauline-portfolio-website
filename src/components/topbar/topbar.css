@@ -3,8 +3,10 @@
 .topbar {
     width: 100%;
     height: 7vh;
-    background-color: #17395c;
-    color: white;
+    /* 035460 004857 */
+    /* background-color: #17395c; */
+    background-color: #fff;
+    color: #F95700FF;
     position: fixed;
     top: 0;
     z-index: 3;
@@ -20,7 +22,7 @@
     align-items: center;
     /* justify-content: space-around; */
 }
-.right ul li{
+.right ul #bar{
     list-style: none;
     display: inline-block;
     padding: 5px;
@@ -38,7 +40,7 @@
 span{
     width: 100%;
     height: 3px;
-    background-color: white;
+    background-color: #F95700FF;
     transform-origin: left;
     transition: all 2s ease;
 }

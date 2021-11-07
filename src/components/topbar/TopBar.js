@@ -9,14 +9,16 @@ function TopBar({open, setMenu}) {
         <img src={logo} alt="my logo" width="200" height="90" />
       </a>
       <div className="right">
-        <ul>
-          <li>
+        <ul >
+          <li id="bar">
             <a href="#home">Home</a>
           </li>
-          <li>
+          <li id="bar">
             <a href="#port">My Projects</a>
           </li>
-          <li><a href="#contact">Contact Me</a></li>
+          <li id="bar">
+            <a href="#contact">Contact Me</a>
+          </li >
         </ul>
         <div
           className="humberger"

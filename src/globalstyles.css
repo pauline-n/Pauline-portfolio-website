@@ -1,0 +1,13 @@
+:root {
+  --color1: #17395c;
+  --color2: #e1dcc9;
+  --color3: #c24229;
+  --color4: #efb758;
+ 
+}
+
+@media only screen and (max-width: 768px) {
+    [class*="col-"] {
+    width: 100%;
+  }
+}

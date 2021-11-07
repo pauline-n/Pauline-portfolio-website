@@ -25,10 +25,8 @@ function MyProjects() {
         id: "design",
         title: "UI/UX Designs",
       },
-      {
-        id: "school",
-        title: "School Projects",
-      },
+      
+     
     ];
 
     useEffect(() => {
@@ -43,9 +41,7 @@ function MyProjects() {
           case "design":
             setData(designPortfolios);
             break;
-          case "school":
-            setData(schoolPortfolios);
-            break;
+         
           default:
               setData(webPortfolios)
             break;
@@ -55,7 +51,7 @@ function MyProjects() {
     return (
       <div className="port" id="port">
         <h1 id="pt">Portfolio</h1>
-        <ul>
+        <ul id="proj">
           {list.map((item) => (
               <PortfolioList title={item.title} 
               active={selected === item.id} 
@@ -65,7 +61,7 @@ function MyProjects() {
           ))}
         </ul>
         <div className="container">
-            {data.map((d) => {
+            {data.map((d) => 
                  <div className="item" key={d.index}>
                    <img
                      src={d.img}
@@ -75,8 +71,8 @@ function MyProjects() {
                      id="photo"
                    />
                    <h3>{d.title}</h3>
-                 </div>;
-            })}
+                 </div>
+            )}
          
          
         </div>

@@ -16,8 +16,8 @@ export const webPortfolios = [
   },
   {
     id: 4,
-    title: "SURELY",
-    img: "https://www.pexels.com/photo/frames-on-brown-wooden-floor-8251487/",
+    title: "UFARM",
+    img: "assets/waterplant.jpg",
   },
   {
     id: 5,
@@ -97,35 +97,3 @@ export const designPortfolios = [
   },
 ];
 
-export const schoolPortfolios = [
-  {
-    id: 1,
-    title: "UFARM",
-    img: "assets/waterplant.jpg",
-  },
-  {
-    id: "",
-    title: "",
-    img: "",
-  },
-  {
-    id: "",
-    title: "",
-    img: "",
-  },
-  {
-    id: "",
-    title: "",
-    img: "",
-  },
-  {
-    id: "",
-    title: "",
-    img: "",
-  },
-  {
-    id: "",
-    title: "",
-    img: "",
-  },
-];

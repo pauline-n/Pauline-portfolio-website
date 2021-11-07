@@ -4,20 +4,20 @@ import './menu.css'
 function Menu({open, setMenu}) {
     return (
       <div className={"menu " + (open && "active")}>
-        <ul>
-          <li onClick={() => setMenu(false)}>
+        <ul className="men">
+          <li onClick={() => setMenu(false)} className="new">
             <a href="#home">Home Page</a>
           </li>
-          <li onClick={() => setMenu(false)}>
+          <li onClick={() => setMenu(false)} className="new">
             <a href="#about">About Me</a>
           </li>
-          <li onClick={() => setMenu(false)}>
+          <li onClick={() => setMenu(false)} className="new">
             <a href="#port">My Projects / Portfolio</a>
           </li>
-          <li onClick={() => setMenu(false)}>
+          <li onClick={() => setMenu(false)} className="new">
             <a href="#skills">Skills and Certificates</a>
           </li>
-          <li onClick={() => setMenu(false)}>
+          <li onClick={() => setMenu(false)} className="new">
             <a href="#contact">Contact Me</a>
           </li>
         </ul>

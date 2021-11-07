@@ -15,7 +15,7 @@
 .menu active{
     right: 0;
 }
-.menu active ul{
+.menu active .men{
     margin: 0;
     padding: 0;
     list-style: none;
@@ -24,16 +24,16 @@
     color: white;
   
 }
-.menu active ul:hover{
+.menu active .men:hover{
         font-weight: 500;
     }
     
-li a{
+.new a{
     font-size: inherit;
     color: inherit;
     text-decoration: none;
 
 }
-li{
+.new{
     margin-bottom: 25px;
 }

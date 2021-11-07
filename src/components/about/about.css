@@ -1,20 +1,20 @@
-.about{
-    background-color: #efb758;
-    display: flex;
-    flex-direction: row;
+.about {
+  /* background-color: #efb758; */
+  background-color: #efdcd9;
+  display: flex;
+  flex-direction: row;
 }
-#abt{
-    font-size: 30px;
-    color: #17395c;
+#abt {
+  font-size: 30px;
+  color: #17395c;
 }
-.words{
-    flex: 0.7;
+.words {
+  flex: 0.7;
 }
-.pic{
-    flex: 0.3;
-   
+.pic {
+  flex: 0.3;
 }
-.head{
-    align-items: center;
-    justify-content: center;
+.head {
+  align-items: center;
+  justify-content: center;
 }
