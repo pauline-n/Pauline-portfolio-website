@@ -12,7 +12,7 @@ function HomePage() {
       showCursor: false,
       backDelay: 1500,
       
-      strings: ["React JS FrontEnd Developer", "Web Designer & Developer", "MERN Stack!"],
+      strings: ["Web Developer", "UI/UX Designer", "Full Stack Developer!"],
     });
   }, [])
   return (
